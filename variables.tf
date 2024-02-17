@@ -27,3 +27,9 @@ variable "zone" {
   description = "The preferred compute engine zone"
   type        = string
 }
+
+variable "test" {
+  description = "The preferred compute engine zone"
+  type        = string
+  default = "value"
+}
